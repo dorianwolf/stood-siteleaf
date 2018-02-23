@@ -5,4 +5,3 @@ twitter: blahhtwit
 ---
 
 <h1>{{page.title}}</h1>
-<div class="bio">{{ page.content }}</div>
