@@ -4,7 +4,7 @@ date: 2018-02-20 21:45:25 Z
 categories:
 - jekyll
 - update
-layout: 
+layout:
 author: Dorian
 ---
 
