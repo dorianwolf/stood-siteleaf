@@ -13,7 +13,7 @@ collections:
     output: true
   stood:
     title: stood
-    output: false
+    output: true
 defaults:
 - scope:
     path: ''
