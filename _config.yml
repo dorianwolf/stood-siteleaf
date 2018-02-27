@@ -5,6 +5,15 @@ collections:
   authors:
     title: Authors
     output: true
+    Main info:
+      Bio: 
+      Profile Image: 
+    List some info:
+    - - List one a
+      - List one b
+    - - List two a
+      - List two b
+      - List two c
   posts:
     title: Posts
     output: true
