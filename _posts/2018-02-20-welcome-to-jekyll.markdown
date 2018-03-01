@@ -5,7 +5,7 @@ categories:
 - jekyll
 - update
 Layout:
-  author: Dorian
+  author: Someone else
   stood: connect sass
 ---
 
