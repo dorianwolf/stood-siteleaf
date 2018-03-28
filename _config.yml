@@ -20,14 +20,14 @@ collections:
         First text content: 
       - Second icon image: 
         Second text content: 
-  cb-hero-video:
-    title: 'CB: hero video'
-    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
+    output: true
+  cb-hero-video:
+    title: component - hero video
     output: true
   stood:
     title: stood
