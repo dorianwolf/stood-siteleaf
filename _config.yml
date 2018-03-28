@@ -20,6 +20,9 @@ collections:
         First text content: 
       - Second icon image: 
         Second text content: 
+  cb-hero-video:
+    title: 'CB: hero video'
+    output: true
   posts:
     title: Posts
     output: true
