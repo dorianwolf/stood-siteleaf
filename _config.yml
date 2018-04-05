@@ -20,6 +20,9 @@ collections:
         First text content: 
       - Second icon image: 
         Second text content: 
+  component-single-paragraph-with-icon:
+    title: Component single paragraph with icon
+    output: true
   posts:
     title: Posts
     output: true
