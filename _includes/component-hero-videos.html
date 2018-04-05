@@ -1,0 +1,10 @@
+<!-- in here goes the actual content block in html -->
+
+{% if block_content.elements %}
+  {% for element in block_content.elements %}
+    {% assign element-title = element[0] %}
+    {% assign element-content = element[1] %}
+    {{ element-title }}
+    {{ element-content }}
+  {% endfor %}
+{% endif %}

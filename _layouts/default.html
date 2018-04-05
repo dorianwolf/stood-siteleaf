@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {% if page.skeleton %}
+          {%for building_blocks in page.skeleton %}
+
+            <!-- get the page's layout -->
+            {% assign the_block_collection = building_blocks[0] | append: 's' %}
+            {% assign the_layout_file = the_block_collection | append: '.html' %}
+            {% assign block_title = building_blocks[1] %}
+            {% assign block_content = site[the_block_collection] | where: 'title', block_title | first %}
+
+            <!-- build the page -->
+            {% case the_block_collection %}
+            {% when "component-hero-videos" %}
+              {% include component-hero-videos.html %}
+            {% endcase %}
+
+          {% endfor %}
+        {% endif %}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
