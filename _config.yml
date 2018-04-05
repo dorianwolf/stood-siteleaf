@@ -22,7 +22,7 @@ collections:
         Second text content: 
   component-single-paragraph-with-icon:
     title: Component single paragraph with icon
-    output: true
+    output: false
     Elements:
       icon image: "/uploads/Screen%20Shot%202018-03-08%20at%205.46.44%20PM-06e59e.png"
       paragraph text: Sup here is some contents
