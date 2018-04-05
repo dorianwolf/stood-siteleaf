@@ -23,6 +23,9 @@ collections:
   component-single-paragraph-with-icon:
     title: Component single paragraph with icon
     output: true
+    Elements:
+      icon image: 
+      paragraph text: 
   posts:
     title: Posts
     output: true
