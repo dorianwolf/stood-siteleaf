@@ -41,13 +41,14 @@ defaults:
     type: pages
   values:
     skeleton:
+      nav-image:
 - scope:
     path: ''
     type: component-single-paragraph-with-icons
   values:
     elements:
-      icon image: "/uploads/Screen%20Shot%202018-03-08%20at%205.46.44%20PM-06e59e.png"
-      paragraph text: Sup here is some contents
+      icon image:
+      paragraph text:
 - scope:
     path: ''
     type: authors
