@@ -2,6 +2,12 @@
 title: Your awesome title
 timezone: UTC
 collections:
+  component-single-paragraph-with-icons:
+    title: "(Component) single paragraph with icon"
+    output: false
+  component-hero-videos:
+    title: "(component) hero video"
+    output: false
   authors:
     title: Authors
     output: true
@@ -20,18 +26,12 @@ collections:
         First text content: 
       - Second icon image: 
         Second text content: 
-  component-single-paragraph-with-icons:
-    title: (Component) single paragraph with icon
-    output: false
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
-  component-hero-videos:
-    title: (component) hero video
-    output: false
   stood:
     title: stood
     output: true
