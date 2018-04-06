@@ -3,14 +3,40 @@ title: Your awesome title
 timezone: UTC
 collections:
   component-single-paragraph-with-icons:
+<<<<<<< HEAD
     title: (Component) single paragraph with icon
     output: false
+=======
+    title: "(Component) single paragraph with icon"
+    output: false
+  component-hero-videos:
+    title: "(component) hero video"
+    output: false
+  authors:
+    title: Authors
+    output: true
+    Main info:
+      Bio: 
+      Profile Image: 
+    List some info:
+    - - List one a
+      - List one b
+    - - List two a
+      - List two b
+      - List two c
+    Two col with icons:
+      Key:
+      - First icon image: 
+        First text content: 
+      - Second icon image: 
+        Second text content: 
+  posts:
+    title: Posts
+    output: true
+>>>>>>> bf1046676c218c82067cfef2964f36e16e46e3c8
   uploads:
     title: Uploads
     output: true
-  component-hero-videos:
-    title: (component) hero video
-    output: false
   stood:
     title: stood
     output: true
