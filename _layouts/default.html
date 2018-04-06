@@ -10,7 +10,7 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {% if page.skeleton %}
-          {%for building_blocks in page.skeleton %}
+          {% for building_blocks in page.skeleton %}
 
             <!-- get the page's layout -->
             {% assign the_block_collection = building_blocks[0] | append: 's' %}
@@ -20,8 +20,10 @@
 
             <!-- build the page -->
             {% case the_block_collection %}
+
             {% when "component-hero-videos" %}
               {% include component-hero-videos.html %}
+
             {% endcase %}
 
           {% endfor %}

@@ -21,7 +21,7 @@ collections:
       - Second icon image:
         Second text content:
   component-single-paragraph-with-icons:
-    title: Component single paragraph with icon
+    title: (Component) single paragraph with icon
     output: false
   posts:
     title: Posts
@@ -30,7 +30,7 @@ collections:
     title: Uploads
     output: true
   component-hero-videos:
-    title: component-hero-video
+    title: (component) hero video
     output: false
   stood:
     title: stood
