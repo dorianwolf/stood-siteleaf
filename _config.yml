@@ -3,11 +3,11 @@ title: Your awesome title
 timezone: UTC
 collections:
   component-single-paragraph-with-icons:
-    title: "(Component) single paragraph with icon"
+    title: (Component) single paragraph with icon
     output: false
-  posts:
-    title: Posts
-    output: true
+  component-hero-videos:
+    title: component-hero-video
+    output: false
   uploads:
     title: Uploads
     output: true
@@ -20,27 +20,34 @@ defaults:
     type: pages
   values:
     skeleton:
-      nav-image: 
+      nav-image:
 - scope:
     path: ''
     type: component-single-paragraph-with-icons
   values:
     elements:
-      icon image: 
-      paragraph text: 
+      icon image:
+      paragraph text:
+- scope:
+    path: ''
+    type: component-hero-videos
+  values:
+    elements:
+      icon image:
+      paragraph text:
 - scope:
     path: ''
     type: authors
   values:
     permalink: "/blog/authors/:title/"
     layout: author
-    twitter: 
-    facebook: 
+    twitter:
+    facebook:
 email: your-email@example.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
-baseurl: 
+baseurl:
 url: http://localhost:4000/
 twitter_username: jekyllrb
 github_username: dorianwolf
