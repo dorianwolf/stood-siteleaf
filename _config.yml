@@ -5,6 +5,9 @@ collections:
   component-single-paragraph-with-icons:
     title: "(Component) single paragraph with icon"
     output: false
+  component-double-paragraph-with-icons:
+    title: "(component) double paragraph with icons"
+    output: true
   posts:
     title: Posts
     output: true
